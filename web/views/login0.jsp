@@ -102,11 +102,12 @@
                 <label class="radio-inline"><input type="radio" name="usertype" value="管理员">manager</label>
             </div>
         </div>
+        <!--
         <div class="form-group">
             <label class="control-label visible-ie8 visible-ie9">Verification code</label>
             <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="Verification code" name="Verification_code"/>
             <div class="code" id="checkCode" οnclick="createCode()" ></div>
-        </div>
+        </div>-->
         <div class="form-actions">
             <button id="login_btn" type="submit" class="btn btn-primary btn-block uppercase">Login</button>
         </div>
@@ -150,7 +151,7 @@
             <label class="control-label visible-ie8 visible-ie9">Full Name</label>
             <input class="form-control placeholder-no-fix" type="text" placeholder="Full Name" name="fullname"/>
         </div>
-        <div class="form-group">
+        <div class="form-group margin-top-20 margin-bottom-20">
             <div class="col-sm-12 col-sm-offset-1" ><!--col-sm-offset-1偏移1个单位-->
                 <label class="radio-inline"><input type="radio" name="usertype" value="学生">student</label> <!--radio-inline复选框一行-->
                 <label class="radio-inline"><input type="radio" name="usertype" value="老师">teacher</label>
